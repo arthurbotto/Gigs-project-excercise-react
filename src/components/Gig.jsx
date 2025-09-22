@@ -3,7 +3,7 @@ const Gig = (props) => {
     return (
         <div className="gig">
             <h3>{props.title}</h3>
-            <img className="logo" src={props.image}></img>
+            <img className="logo" src={props.image} alt={`${props.title} poster`}></img>
             <p className="description">{props.description}</p>
             <p className="time">When: {props.time}</p>
             <p className="location">Where: {props.location}</p>

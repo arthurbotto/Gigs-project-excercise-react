@@ -1,4 +1,6 @@
 import Gig from "./components/Gig";
+import ClickListener from "./components/ClickListener";
+import InputListener from "./components/Input";
 import "./App.css";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         time="10 of October, 2025"
         location="Wembley Stadium, London, UK"
        />
+       <ClickListener />
+       <InputListener />
        
     </>
   );
