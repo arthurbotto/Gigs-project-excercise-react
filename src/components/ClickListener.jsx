@@ -1,5 +1,6 @@
 const ClickListener = () => {
     const handleClick = (event) => {
+        alert("Click worked, yaay!");
         console.log(event);
     }
 

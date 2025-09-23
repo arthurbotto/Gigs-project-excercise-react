@@ -1,6 +1,7 @@
 import Gig from "./components/Gig";
 import ClickListener from "./components/ClickListener";
 import InputListener from "./components/Input";
+import Counter from "./components/Counter";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
        />
        <ClickListener />
        <InputListener />
+       <Counter />
        
     </>
   );
